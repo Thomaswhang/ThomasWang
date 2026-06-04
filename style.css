@@ -1,0 +1,29 @@
+ :root {
+    --color-body: #b300b9;
+    --color-heading: #ffffff;
+    --color-base: #2e1f32;
+    --color-base2: #e6e6e6;
+    --color-brand: #ffc8fc;
+    --color-brand2: #e94fdf;
+}
+
+
+
+body {
+    background: linear-gradient(rgb(0, 0, 0), rgb(0, 0, 0));
+    color: var(--color-body);
+    font-family: sans-serif;
+    font-size: 25px;
+}
+
+.experiences{
+    background-color: var(--color-base);
+}
+
+.full-height {
+    min-height: 100vh;
+    height: 100%;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    border-bottom: 2px solid rgb(255, 255, 255, 0.1);
+}
