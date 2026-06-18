@@ -27,3 +27,36 @@ body {
     padding-bottom: 80px;
     border-bottom: 2px solid rgb(255, 255, 255, 0.1);
 }
+
+.experiences{
+    background-color: black;
+}
+
+.text{
+    color: var(--color-body);
+}
+
+.nav{
+    color: var(--color-body);
+}
+
+.project-card {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.project-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 30px rgba(0,0,0,0.12);
+}
+
+.project-img {
+  height: 200px;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.project-card:hover .project-img {
+  transform: scale(1.05);
+}
